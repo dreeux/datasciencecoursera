@@ -1,0 +1,370 @@
+unique,variable,class,,variable
+938,var16 entity amount last,numeric,, entity amount last
+13414,var39 commercial option amount last1,numeric,, commercial option amount last
+16284,var39 commercial option amount last3,numeric,, amount effective option last
+601,var40 commercial option amount last1,numeric,, option amount last
+705,var40 commercial option amount last3,numeric,, option amount commercial last
+42,var40 amount effective option last1,numeric,, slary amount last
+50,var40 amount effective option last3,numeric,,indicator 0
+462,var40 option amount last1,numeric,,indicator
+13155,var41 option amount commercial last1,numeric,, short indicator 0
+16003,var41 option amount commercial last3,numeric,, short indicator
+497,var41 amount effective option last1,numeric,, long indicator 0
+673,var41 amount effective option last3,numeric,, long indicator
+14597,var41 option amount last1,numeric,, indicator means 0
+503,var39 amount effective option last1,numeric,, indicator means
+680,var39 amount effective option last3,numeric,, indicator cte
+14814,var39 option amount last1,numeric,,number 0
+124,var16 slary amount last1,numeric,,number
+2,var1 indicator 0,integer,, short number 0
+2,var1 indicator,integer,, long number 0
+1,var2 indicator 0,integer,, long number
+1,var2 indicator,integer,, average number 0
+2,var5 indicator 0,integer,, average number
+2,var5 indicator,integer,, option number ago
+2,var6 indicator 0,integer,,balance
+2,var6 indicator,integer,, balance short
+2,var8 indicator 0,integer,, balance long
+2,var8 indicator,integer,, balance means
+2,var12 indicator 0,integer,, amortization amount delta 1Y3
+2,var12 indicator,integer,, refund amount delta 1Y3
+2,var13 indicator 0,integer,, delta transfer amount in 1Y3
+2,var13 short indicator 0,integer,,ventidada delta amount
+2,var13 short indicator,integer,, delta contribution amount 1Y3
+2,var13 long indicator 0,integer,,chain in purchase amount 1Y3
+2,var13 long indicator,integer,, delta reimbursement amount 1Y3
+2,var13 indicator means 0,integer,, delta transfer number in 1Y3
+2,var13 indicator means,integer,, delta transfer number out 1Y3
+2,var13 indicator,integer,, delta ventidada number 1Y3
+2,var14 indicator 0,integer,, repayment amount ago
+2,var14 indicator,integer,, input amount ago
+2,var17 indicator 0,integer,,amount issued last
+2,var17 indicator,integer,,amount received last
+2,var18 indicator 0,integer,, purchase amount ago
+2,var18 indicator,integer,, refund amount ago
+2,var19 indicator,integer,, amount issued last
+2,var20 indicator 0,integer,, transfer amount in ago
+2,var20 indicator,integer,, transfer amount in last
+2,var24 indicator 0,integer,, transfer amount out ago
+2,var24 indicator,integer,, ventidada amount ago
+2,var25 indicator cte,integer,,indicator issued last
+2,var26 indicator 0,integer,,indicator received last
+2,var26 indicator cte,integer,, indicator last
+2,var26 indicator,integer,, indicator cte last
+2,var25 indicator 0,integer,, input number ago
+2,var25 indicator,integer,,number issued last
+1,var27 indicator 0,integer,,number received last
+1,var28 indicator 0,integer,, purchase amount ago
+1,var28 indicator,integer,, entity number last
+1,var27 indicator,integer,, number months short last
+2,var29 indicator 0,integer,, number months long last
+2,var29 indicator,integer,, number months average number last
+2,var30 indicator 0,integer,, number months last
+2,var30 indicator,integer,, months vig number last
+2,var31 indicator 0,integer,, commercial option number last
+2,var31 indicator,integer,, option number cash last
+2,var32 indicator cte,integer,, reimbursement number ago
+2,var32 indicator 0,integer,, salary number last
+2,var32 indicator,integer,, transfer number last
+2,var33 indicator 0,integer,, transfer number in last
+2,var33 indicator,integer,, number transfer out ago
+2,var34 indicator 0,integer,, ventidada number ago
+2,var34 indicator,integer,,balance last
+2,var37 indicator cte,integer,,average balance ago
+2,var37 indicator 0,integer,,average balance last
+2,var37 indicator,integer,, average balance ago
+2,var39 indicator 0,integer,, average balance last
+2,var40 indicator 0,integer,, average balance short ago
+2,var40 indicator,integer,, average balance short last
+2,var41 indicator 0,integer,, average balance long ago
+1,var41 indicator,integer,, average balance long last
+2,var39 indicator,integer,, average balance means ago
+2,var44 indicator 0,integer,, average balance means last
+2,var44 indicator,integer,,
+1,var46 indicator 0,integer,,
+1,var46 indicator,integer,,
+3,var1 number 0,integer,,
+3,var1 number,integer,,
+10,var4 number,integer,,
+6,var5 number 0,integer,,
+6,var5 number,integer,,
+2,var6 number 0,integer,,
+2,var6 number,integer,,
+3,var8 number 0,integer,,
+2,var8 number,integer,,
+7,var12 number 0,integer,,
+4,var12 number,integer,,
+8,var13 number 0,integer,,
+3,var13 short number 0,integer,,
+3,short number var13,integer,,
+8,var13 long number 0,integer,,
+8,var13 long number,integer,,
+3,var13 average number 0,integer,,
+2,var13 average number,integer,,
+8,var13 number,integer,,
+6,var14 number 0,integer,,
+4,var14 number,integer,,
+12,var17 number 0,integer,,
+9,var17 number,integer,,
+2,var18 number 0,integer,,
+2,var18 number,integer,,
+2,var20 number 0,integer,,
+2,var20 number,integer,,
+4,var24 number 0,integer,,
+3,var24 number,integer,,
+10,var26 number 0,integer,,
+10,var26 number,integer,,
+10,var25 number 0,integer,,
+10,var25 number,integer,,
+26,var40 option number ago2,integer,,
+6,var40 option number ago3,integer,,
+34,var40 option number last1,integer,,
+41,var40 option number last3,integer,,
+64,var41 option number ago2,integer,,
+27,var41 option number ago3,integer,,
+78,var41 option number last1,integer,,
+116,var41 option number last3,integer,,
+63,var39 option number ago2,integer,,
+27,var39 option number ago3,integer,,
+81,var39 option number last1,integer,,
+119,var39 option number last3,integer,,
+1,var27 number 0,integer,,
+1,var28 number 0,integer,,
+1,var28 number,integer,,
+1,var27 number,integer,,
+2,var29 number 0,integer,,
+2,var29 number,integer,,
+13,var30 number 0,integer,,
+10,var30 number,integer,,
+12,var31 number 0,integer,,
+9,var31 number,integer,,
+5,var32 number 0,integer,,
+5,var32 number,integer,,
+4,var33 number 0,integer,,
+3,var33 number,integer,,
+2,var34 number 0,integer,,
+2,var34 number,integer,,
+14,number var35,integer,,
+23,var37 average number last2,integer,,
+27,var37 number 0,integer,,
+27,var37 number,integer,,
+11,var39 number 0,integer,,
+3,var40 number 0,integer,,
+2,var40 number,integer,,
+11,var41 number 0,integer,,
+1,var41 number,integer,,
+2,var39 number,integer,,
+9,var42 number 0,integer,,
+7,var42 number,integer,,
+3,var44 number 0,integer,,
+3,var44 number,integer,,
+1,var46 number 0,integer,,
+1,var46 number,integer,,
+565,var1 balance,numeric,,
+20454,var5 balance,numeric,,
+5,var6 balance,numeric,,
+3948,var8 balance,numeric,,
+5858,var12 balance,numeric,,
+1254,var13 balance short,numeric,,
+388,var13 balance long,numeric,,
+6,var13 balance means,integer,,
+1469,var13 balance,numeric,,
+636,var14 balance,numeric,,
+215,var17 balance,numeric,,
+4,var18 balance,integer,,
+301,var20 balance,numeric,,
+5041,var24 balance,numeric,,
+3139,var26 balance,numeric,,
+3006,var25 balance,numeric,,
+1,var28 balance,integer,,
+1,var27 balance,integer,,
+5,var29 balance,numeric,,
+30654,var30 balance,numeric,,
+567,var31 balance,numeric,,
+150,var32 balance,numeric,,
+106,var33 balance,numeric,,
+5,var34 balance,integer,,
+7247,var37 balance,numeric,,
+560,var40 balance,numeric,,
+1,var41 balance,integer,,
+28458,var42 balance,numeric,,
+267,var44 balance,numeric,,
+1,var46 balance,integer,,
+5,var36 balance,integer,,
+2,var18 amortization amount delta 1Y3,integer64,,
+2,var34 amortization amount delta 1Y3,integer64,,
+51,var13 amortization amount delta 1Y3,numeric,,
+11,var17 amortization amount delta 1Y3,numeric,,
+13,var33 amortization amount delta 1Y3,numeric,,
+29,var44 amortization amount delta 1Y3,numeric,,
+2,var13 refund amount delta 1Y3,integer64,,
+3,var17 refund amount delta 1Y3,integer64,,
+2,var33 refund amount delta 1Y3,integer64,,
+3,var17 delta transfer amount in 1Y3,integer64,,
+2,var17 delta transfer amount out 1Y3,integer64,,
+3,var33 delta transfer amount in 1Y3,integer64,,
+2,var33 delta transfer amount out 1Y3,integer64,,
+8,ventidada delta amount var44 1Y3,numeric,,
+8,var13 delta contribution amount 1Y3,numeric,,
+7,var17 delta contribution amount 1Y3,numeric,,
+5,var33 delta contribution amount 1Y3,numeric,,
+15,var44 chain in purchase amount 1Y3,numeric,,
+2,var13 delta reimbursement amount 1Y3,integer64,,
+3,var17 delta reimbursement amount 1Y3,integer64,,
+2,var33 delta reimbursement amount 1Y3,integer64,,
+3,var17 delta transfer number in 1Y3,integer64,,
+2,var17 delta transfer number out 1Y3,integer64,,
+3,var33 delta transfer number in 1Y3,integer64,,
+2,var33 delta transfer number out 1Y3,integer64,,
+7,var44 delta ventidada number 1Y3,numeric,,
+1,var18 repayment amount ago3,integer,,
+4,var18 repayment amount last1,numeric,,
+1,var34 repayment amount ago3,integer,,
+5,var34 repayment amount last1,numeric,,
+712,var13 input amount ago3,numeric,,
+287,var13 input amount last1,numeric,,
+35,var17 input amount ago3,numeric,,
+68,var17 input amount last1,numeric,,
+25,var33 input amount ago3,numeric,,
+18,var33 input amount last1,numeric,,
+6,var7 amount issued last1,numeric,,
+320,var7 amount received last1,numeric,,
+59,var44 purchase amount ago3,numeric,,
+175,var44  purchase amount last1,numeric,,
+1,var13 refund amount ago3,integer,,
+48,var13 refund amount last1,numeric,,
+2,var17 refund amount ago3,numeric,,
+31,var17 refund amount last1,numeric,,
+1,var33 refund amount ago3,integer,,
+2,var33 refund amount last1,integer,,
+4240,var43 amount issued last1,numeric,,
+6808,var37 Tx amount last1,numeric,,
+9,var17 transfer amount in ago3,numeric,,
+13,var17 transfer amount in last1,numeric,,
+1,var17 transfer amount out ago3,integer,,
+5,var17 transfer amount out last1,numeric,,
+14,var33 transfer amount in ago3,numeric,,
+18,var33 transfer amount in last1,numeric,,
+1,var33 transfer amount  out ago3,integer,,
+3,var33 transfer amount out last1,numeric,,
+9,var44 ventidada amount ago3,numeric,,
+79,var44 ventidada amount last1,numeric,,
+2,var7 indicator issued last1,integer,,
+2,var7 indicator received last1,integer,,
+2,var10 indicator last1,integer,,
+2,var10 indicator cte last1,integer,,
+2,var9 indicator cte last1,integer,,
+2,var9 indicator last1,integer,,
+2,var43 indicator issued last1,integer,,
+2,var43 indicator received last1,integer,,
+27,var21,integer,,
+1,var2 number 0 last1,integer,,
+1,var2 number last1,integer,,
+8,var13 input number ago3,integer,,
+7,var13 input number  last1,integer,,
+6,var17 input number  ago3,integer,,
+10,var17 input number last1,integer,,
+5,var33 input number ago3,integer,,
+4,var33 input number last1,integer,,
+3,var7 number issued last1,integer,,
+6,var7 number received last1,integer,,
+9,var44 purchase amount ago3 II,integer,,
+12,purchase var44 purchase amount last1,integer,,
+19,var16 entity number last1,integer,,
+25,var22 number ago2,integer,,
+21,var22 number ago3,integer,,
+19,var22 number last1,integer,,
+39,var22 number last3,integer,,
+17,var22 average number last3,integer,,
+77,var45 average number last3,integer,,
+4,var5 number months last3,integer,,
+4,var8 number months last3,integer,,
+4,var12number  months last3,integer,,
+4,var13 number months short last3,integer,,
+4,var13 number months long last3,integer,,
+2,var13 number months average number last3,integer,,
+4,var17 number months last3,integer,,
+3,var29 number months last3,integer,,
+4,var33 number months last3,integer,,
+4,var39 months vig number last3,integer,,
+4,var44 number months last3,integer,,
+73,var39 commercial option number last1,integer,,
+113,var39 commercial option number last3,integer,,
+39,var40 commercial option number last1,integer,,
+62,last3 commercial option number var40,integer,,
+10,var40 option number cash last1,integer,,
+10,var40 option number cash last3,integer,,
+69,var41 commercial option number last1,integer,,
+114,var41 commercial option number last3,integer,,
+27,var41 option number cash last1,integer,,
+43,var41 option number cash last3,integer,,
+28,var39 option number cash last1,integer,,
+43,var39 option number cash last3,integer,,
+1,var13 reimbursement number ago3,integer,,
+2,var13 reimbursement number last1,integer,,
+2,var17 reimbursement number ago3,integer,,
+6,var17 reimbursement number last1,integer,,
+1,var33 reimbursement number ago3,integer,,
+2,var33 reimbursement number last1,integer,,
+6,var16 salary number last1,integer,,
+27,var43 number issued last1,integer,,
+48,var43 number received last1,integer,,
+21,var11 transfer number last1,integer,,
+3,var17 transfer number in ago3,integer,,
+3,var17 transfer number in last1,integer,,
+1,var17 number transfer out ago3,integer,,
+2,var17 number transfer out last1,integer,,
+2,var33 transfer number in ago3,integer,,
+3,var33 transfer number in last1,integer,,
+1,var33 number transfer out ago3,integer,,
+2,var33 number transfer out last1,integer,,
+5,var44 ventidada number ago3,integer,,
+11,var44 ventidada number last1,integer,,
+102,var45 number ago2,integer,,
+71,var45 number ago3,integer,,
+105,var45 number last1,integer,,
+197,var45 number last3,integer,,
+1,var2 balance last1,integer,,
+25270,var5 average balance ago2,numeric,,
+13249,var5 average balance ago3,numeric,,
+25650,var5 average balance last1,numeric,,
+29322,var5 average balance last3,numeric,,
+2618,var8 average balance ago2,numeric,,
+793,var8 average balance ago3,numeric,,
+4260,var8 average balance last1,numeric,,
+4364,var8 average balance last3,numeric,,
+5469,var12 average balance ago2,numeric,,
+2110,var12 average balance ago3,numeric,,
+6676,var12 average balance last1,numeric,,
+6801,var12 average balance last3,numeric,,
+2902,var13 average balance short ago2,numeric,,
+1608,var13 average balance short ago3,numeric,,
+1671,var13 average balance short last1,numeric,,
+4513,var13 average balance short last3,numeric,,
+547,var13 average balance long ago2,numeric,,
+495,var13 average balance long ago3,numeric,,
+417,var13 average balance long last1,numeric,,
+999,var13 average balance long last3,numeric,,
+8,var13 average balance means ago2,numeric,,
+1,var13 average balance means ago3,integer,,
+7,var13 average balance means last1,numeric,,
+8,var13 average balance means last3,numeric,,
+164,var17 average balance ago2,numeric,,
+37,var17 average balance ago3,numeric,,
+228,var17 average balance last1,numeric,,
+228,var17 average balance last3,numeric,,
+8,var29 average balance ago2,numeric,,
+2,var29 average balance ago3,numeric,,
+7,var29 average balance last1,numeric,,
+7,var29 average balance last3,numeric,,
+90,var33 average balance ago2,numeric,,
+45,var33 average balance ago3,numeric,,
+107,var33 average balance last1,numeric,,
+107,var33 average balance last3,numeric,,
+197,var44 average balance ago2,numeric,,
+60,var44 average balance ago3,numeric,,
+288,var44 average balance last1,numeric,,
+288,var44 average balance last3,numeric,,
+231,var3,integer,,
+101,var15,integer,,
+109982,var38,numeric,,
