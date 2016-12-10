@@ -110,3 +110,62 @@ write_csv(data.frame(dataset_blend_test), "D:\\kaggle\\PRUDENTIAL\\blend\\bag\\x
 importance_matrix <- xgb.importance(feature_names = names(train), model = mod)
 
 write_csv(data.frame(importance_matrix), "D:\\kaggle\\PRUDENTIAL\\Data\\imp_mat_raw.csv")
+
+  
+######################################################################################################
+import apiai
+import json
+#print apiai.__version__
+CLIENT_ACCESS_TOKEN='bdafa714ad254d06a9d289f08fcd79b0'
+brand=''
+type=''
+price=''
+
+
+def handle_query(query):
+    ai = apiai.ApiAI(CLIENT_ACCESS_TOKEN)
+    request = ai.text_request()
+    request.lang = 'en'
+    request.query = query
+    response = request.getresponse()
+    return (json.loads(response.read()))
+def saveType(t):
+    global type
+    type=type
+
+def saveBrand(b):
+    global brand
+    brand=brand
+
+def savePrice(p):
+    global price
+    price=p
+
+def main():
+	user_input = ''
+
+	#loop the queries to API.AI so we can have a conversation client-side
+	while user_input != 'exit':
+        print 'hello'
+		user_input  = raw_input("me: ")
+		#query the console with the user input, retrieve the response
+		response = handle_query(user_input)
+		#parse the response
+		result = response['result']
+		fulfillment = result['fulfillment']
+
+		print 'bot: ' + fulfillment['speech']
+
+		#if an action is deteted, fire the appropriate function
+		if result['action'] == 'saveType':
+			saveType(user_input)
+		if result['action'] == 'saveBrand':
+			saveBrand(user_input)
+		if result['action'] == 'savePrice':
+			savePrice(user_input)
+
+
+#if __name__ == "__main__":
+main()
+print brand,type,price
+   
